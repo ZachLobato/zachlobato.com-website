@@ -156,22 +156,42 @@
           </h2>
           <h3 class="flex flex-col px-4 justify-center grid-row text-lg text-pistachio-800 dark:text-pistachio-200  mt-6 lg:mt-20 mb-6 mx-0 lg:px-0 lg:text-2xl">A Product Approach</h3>
           <article class="mt-4 mx-4 dark:text-cadet-gray-200 text-cadet-gray-800 text-base text-left mb-4">
-            <p>In college, I went on a stint learning <a target="_blank" class="dark:text-prussian-blue-200 text-prussian-blue-800 hover:text-mint-green-800 dark:hover:text-mint-green-200" href="https://www.vim.org/">VIM</a> because I felt it’d make me faster and more efficient as a software engineer. My close friend Taylor made the comment, “I’ve never had the problem of being able to type slower than I can think.” My Vim abilities are still useful for shelling into servers, but not for my original intent for which today I’ll recommend <a target="_blank" class="dark:text-prussian-blue-200 text-prussian-blue-800 hover:text-mint-green-800 dark:hover:text-mint-green-200" href="https://code.visualstudio.com/">VSCode</a>.</p>
+            <p>When it comes to making products, there's always a race against time. The school of product with which I subscribe to (inspired by <a target="_blank" class="dark:text-prussian-blue-200 text-prussian-blue-800 hover:text-mint-green-800 dark:hover:text-mint-green-200" href="https://jpattonassociates.com/">Jeff Patton</a>) optimizes what precious time we have by defining clear boundaries of responsibility while simultaneously encouraging asynchronous collaboration.</p>
             <br />
-            <p>Along that same train of thought, I’ll add the following sentiments:</p>
+            <h4 class="font-bold">Opportunity Discovery</h4>
+            <p>Product Managers identify opportunities or problems to solve by understanding their customers. They shorten the feedback loop with their customers and steer the overall strategy for the product team.</p>
             <br />
             <ul class="list-disc list-inside mx-4">
-              <li>“I’ve never been able to build a software solution faster than I can mock it up.”</li>
-              <li>“I’ve never been able to luck my way to the correct solution, faster than I can understand a customer’s true problem.”</li>
+              <li>Understanding every feature and service offered by the their product</li>
+              <li>As fixes and features are delivered, tracking user satisfaction and target customer willingness to join.</li>
+              <li>Using feedback for making next decisions on the product.</li>
             </ul>
             <br />
-            <p>This is what we do in the school of product I subscribe to (inspired by <a target="_blank" class="dark:text-prussian-blue-200 text-prussian-blue-800 hover:text-mint-green-800 dark:hover:text-mint-green-200" href="https://jpattonassociates.com/">Jeff Patton</a>).</p>
+            <h4 class="font-bold">Solution Discovery</h4>
+            <p>Taking the next highest priority opportunity, Product Designers drive the effort to come up with the next best solution.</p>
             <br />
-            <p>Product Managers start by identifying the most critical problems to solve by assessing the reach and impact of these issues on customers. Product Designers then create targeted solutions for these problems, each with a unique approach, and evaluate their confidence in the effectiveness of each. Software Engineers assess the feasibility of implementing these solutions.</p>
+            <ul class="list-disc list-inside mx-4">
+              <li>Using their expertise to design experiences to try with our customers.</li>
+              <li>Confirming their design is feasible and addresses the problem or opportunity.</li>
+              <li>Confirming usability with customer feedback</li>
+            </ul>
             <br />
-            <p>To streamline this process, we use a 0-10 rating for reach, impact, confidence, and ease of implementation. Multiplying these ratings results in a RICE score, which helps prioritize the solutions. Our team has replaced 'Effort' with 'Ease' in our scoring to keep the logic simple: lower scores are less desirable, and higher scores are more feasible.</p>
+            <h4 class="font-bold">Solution Marketing</h4>
+            <p>Product Marketing now takes action in determining how best to communicate this upcoming solution.</p>
             <br />
-            <p>For examples of how this could translate to a real-world implementation, you can look to any of my project’s Notion pages.</p>
+            <ul class="list-disc list-inside mx-4">
+              <li>Evaluate how to market this upcoming solution</li>
+              <li>Facilitate communication to internal stakeholders</li>
+              <li>Facilitate communication to external stakeholders</li>
+            </ul>
+            <br />
+            <h4 class="font-bold">Solution Delivery</h4>
+            <p>The design is complete and it's time to deliver.</p>
+            <br />
+            <ul class="list-disc list-inside mx-4">
+              <li>Architect the right solution for the feature.</li>
+              <li>Deliver on that architecture.</li>
+            </ul>
           </article>
         </div>
       </div>
@@ -188,7 +208,7 @@
             <h4 class="text-pistachio-600 dark:text-pistachio-400 uppercase font-bold text-base">Principal Software Engineer</h4>
             <h5 class="text-cadet-gray-800 dark:text-cadet-gray-200 font-bold text-xs">{{ latestPositionDuration }}</h5>
           </div>
-          <p class="mx-4 mb-4 text-cadet-gray-800 dark:text-cadet-gray-200">Manage and train four software engineers while working very closely with a Product Manager and Product Designer on a core product team. Coordinate team’s efforts with company’s larger security and compliance goals.</p>
+          <p class="mx-4 mb-4 text-cadet-gray-800 dark:text-cadet-gray-200">Manage and train multiple software engineers while working very closely with a Product Manager and Product Designer on a core product team. Coordinate team’s efforts with company’s larger security and compliance goals.</p>
           <div class="mx-4 mb-2">
             <h4 class="text-pistachio-600 dark:text-pistachio-400 uppercase font-bold text-base">Senior Software Engineer</h4>
             <h5 class="text-cadet-gray-800 dark:text-cadet-gray-200 font-bold text-xs">1 Year 11 Months</h5>
@@ -373,7 +393,7 @@ const fetchData = async () => {
         notion_url: "https://riticulous.notion.site/Zach_Lobato_Website_a1e47722d50a44688f6ff9211d7d25cb",
         title: "Personal Website",
         sub_title: "For the latest on me",
-        updated_at: "2024-07-15",
+        updated_at: "2025-10-10",
       },
       {
         banner_video_url: 'https://i.imgur.com/N1tahcD.mp4',
