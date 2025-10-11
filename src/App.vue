@@ -19,7 +19,7 @@ watch(
       <a href="#main" ref="skipLink" class="skip-link">Skip to main content</a>
     </li>
   </ul>
-  <div class="bg-gradient-to-r dark:from-cadet-gray-950 dark:to-cadet-gray-800 from-cadet-gray-50 to-cadet-gray-200">
+  <div class="bg-gradient-to-r dark:from-cadet-gray-950 dark:to-cadet-gray-700 from-cadet-gray-50 to-cadet-gray-200">
     <RouterView />
   </div>
 </template>

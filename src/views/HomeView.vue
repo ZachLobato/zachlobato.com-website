@@ -134,7 +134,7 @@
             Products
           </h2>
           <h3 class="flex flex-col justify-center grid-row text-lg text-pistachio-800 dark:text-pistachio-200  mt-6 lg:mt-20 mb-6 mx-4 lg:mx-0 lg:px-0 lg:text-2xl">Latest Updated</h3>
-          <div class="flex justify-center lg:justify-normal gap-4 flex-wrap mx-4">
+          <div class="flex justify-center lg:justify-normal gap-4 flex-wrap mx-4 drop-shadow-[0_4px_8px_rgba(255,255,255,0.25)] dark:drop-shadow-[0_4px_8px_rgba(0,0,0,0.75)]">
             <div v-if="data.isLoading">Loading...</div>
             <MaterialCard v-else v-for="(card, index) in data.info" :key="index"
               :banner-video-url="card.banner_video_url"
@@ -180,7 +180,7 @@
             <p>Product Marketing now takes action in determining how best to communicate this upcoming solution.</p>
             <br />
             <ul class="list-disc list-inside mx-4">
-              <li>Evaluate how to market this upcoming solution</li>
+              <li>Evaluate how to market the solution</li>
               <li>Facilitate communication to internal stakeholders</li>
               <li>Facilitate communication to external stakeholders</li>
             </ul>
@@ -393,7 +393,7 @@ const fetchData = async () => {
         notion_url: "https://riticulous.notion.site/Zach_Lobato_Website_a1e47722d50a44688f6ff9211d7d25cb",
         title: "Personal Website",
         sub_title: "For the latest on me",
-        updated_at: "2025-10-10",
+        updated_at: "2025-10-11",
       },
       {
         banner_video_url: 'https://i.imgur.com/N1tahcD.mp4',
