@@ -158,7 +158,7 @@
           <article class="mt-4 mx-4 dark:text-cadet-gray-200 text-cadet-gray-800 text-base text-left mb-4">
             <p>When it comes to making products, there's always a race against time. The school of product with which I subscribe to (inspired by <a target="_blank" class="dark:text-prussian-blue-200 text-prussian-blue-800 hover:text-mint-green-800 dark:hover:text-mint-green-200" href="https://jpattonassociates.com/">Jeff Patton</a>) optimizes what precious time we have by defining clear boundaries of responsibility while simultaneously encouraging asynchronous collaboration.</p>
             <br />
-            <h4 class="font-bold">Opportunity Discovery</h4>
+            <h4 class="text-pistachio-600 dark:text-pistachio-400 uppercase font-bold text-base">Opportunity Discovery</h4>
             <p>Product Managers identify opportunities or problems to solve by understanding their customers. They shorten the feedback loop with their customers and steer the overall strategy for the product team.</p>
             <br />
             <ul class="list-disc list-inside mx-4">
@@ -167,7 +167,7 @@
               <li>Using feedback for making next decisions on the product.</li>
             </ul>
             <br />
-            <h4 class="font-bold">Solution Discovery</h4>
+            <h4 class="text-pistachio-600 dark:text-pistachio-400 uppercase font-bold text-base">Solution Discovery</h4>
             <p>Taking the next highest priority opportunity, Product Designers drive the effort to come up with the next best solution.</p>
             <br />
             <ul class="list-disc list-inside mx-4">
@@ -176,7 +176,7 @@
               <li>Confirming usability with customer feedback</li>
             </ul>
             <br />
-            <h4 class="font-bold">Solution Marketing</h4>
+            <h4 class="text-pistachio-600 dark:text-pistachio-400 uppercase font-bold text-base">Solution Marketing</h4>
             <p>Product Marketing now takes action in determining how best to communicate this upcoming solution.</p>
             <br />
             <ul class="list-disc list-inside mx-4">
@@ -185,7 +185,7 @@
               <li>Facilitate communication to external stakeholders</li>
             </ul>
             <br />
-            <h4 class="font-bold">Solution Delivery</h4>
+            <h4 class="text-pistachio-600 dark:text-pistachio-400 uppercase font-bold text-base">Solution Delivery</h4>
             <p>The design is complete and it's time to deliver.</p>
             <br />
             <ul class="list-disc list-inside mx-4">
@@ -393,7 +393,7 @@ const fetchData = async () => {
         notion_url: "https://riticulous.notion.site/Zach_Lobato_Website_a1e47722d50a44688f6ff9211d7d25cb",
         title: "Personal Website",
         sub_title: "For the latest on me",
-        updated_at: "2025-10-11",
+        updated_at: "2025-10-12",
       },
       {
         banner_video_url: 'https://i.imgur.com/N1tahcD.mp4',
