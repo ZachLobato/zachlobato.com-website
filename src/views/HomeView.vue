@@ -309,7 +309,7 @@ function detectMostVisible() {
   const options = {
     root: null,
     rootMargin: '0px',
-    threshold: 0.5 // Adjust as necessary to tweak when changes occur
+    threshold: [0.55] // Adjust as necessary to tweak when changes occur
   };
 
   observer = new IntersectionObserver(handleIntersect, options);
