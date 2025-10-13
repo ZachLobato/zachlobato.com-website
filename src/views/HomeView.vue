@@ -145,6 +145,8 @@
               :under-construction="card.under_construction"
               :title="card.title"
               :updated-at="card.updated_at"
+              :isWebPageMirror="card.isWebPageMirror"
+              :mirrorMaxDepth="card.mirrorMaxDepth"
               :sub-title="card.sub_title"></MaterialCard>
           </div>
         </div>
@@ -386,14 +388,14 @@ const fetchData = async () => {
     // const jsonData = await response.json();
     data.info = [
       {
-        banner_video_url: 'https://i.imgur.com/JeFU9hf.mp4',
-        banner_dark_video_url: "https://i.imgur.com/NJ5fStd.mp4",
         launch_url: "https://zachlobato.com",
         github_url: "https://github.com/ZachLobato/zachlobato.com-website",
         notion_url: "https://riticulous.notion.site/Zach_Lobato_Website_a1e47722d50a44688f6ff9211d7d25cb",
         title: "Personal Website",
         sub_title: "For the latest on me",
-        updated_at: "2025-10-12",
+        updated_at: "2025-10-13",
+        isWebPageMirror: true,
+        mirrorMaxDepth: 3,
       },
       {
         banner_video_url: 'https://i.imgur.com/N1tahcD.mp4',
@@ -402,7 +404,8 @@ const fetchData = async () => {
         title: 'Oracle: A Lab Time Ago',
         sub_title: 'A time and space adventure',
         updated_at: "2024-02-18",
-      }
+        isWebPageMirror: false,
+      },
     ]
   } catch (error) {
     console.error("Failed to fetch data:", error);
