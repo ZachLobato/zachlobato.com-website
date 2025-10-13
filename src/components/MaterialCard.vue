@@ -6,7 +6,7 @@
     @touchend="isHovered = !isHovered"
     class="card rounded-lg bg-cadet-gray-100 dark:bg-cadet-gray-900 w-80 h-64 lg:w-80"
   >
-    <section class="w-full lg:w-full h-64 overflow-hidden">
+    <section class="w-full lg:w-full h-64 overflow-hidden rounded-lg">
       <header class="drop-shadow-[0_4px_8px_rgba(255,255,255,0.25)] dark:drop-shadow-[0_4px_8px_rgba(0,0,0,0.75)] relative">
         <div v-if="isWebPageMirror" class="relative w-full" :class="{ 'h-32': isHovered, 'h-48': !isHovered }">
           <iframe
@@ -14,7 +14,7 @@
             ref="iframeRef"
             :src="iframeSrc"
             title="Two-deep page mirror"
-            class="absolute inset-0 w-full h-full"
+            class="absolute inset-0 w-full h-full rounded-lg"
             :style="scaledStyle"
             loading="lazy"
             :sandbox="mirrorSandbox"
@@ -46,14 +46,13 @@
           </div>
         </div>
 
-        <template v-else>
+        <div v-else>
           <img
             v-if="(resolvedBannerImageUrl || resolvedBannerDarkImageUrl) && !hasVideo"
             :aria-expanded="!isHovered"
             :alt="`Banner for ${title}`"
             :class="{
               'card-image': true,
-              'rounded-lg': true,
               'object-center': true,
               'object-cover': true,
               'w-full': true,
@@ -69,7 +68,6 @@
             tabindex="-1"
             :class="{
               'card-video': true,
-              'rounded-lg': true,
               'object-center': true,
               'object-cover': true,
               'w-full': true,
@@ -83,7 +81,7 @@
             muted
             playsinline
           ></video>
-        </template>
+        </div>
       </header>
 
       <div
